@@ -24,12 +24,16 @@ if video.isOpened():
         recodingImg = img.copy()
 
         # 녹화모드 빨간테두리
-        if recodingMode:
-            cv.rectangle(displayImg, (3,3), (videoWidth - 3, videoHeight - 3), (65,105,225), 2)
+        if nowRecoding:
+            cv.rectangle(displayImg, (3,3), (videoWidth - 3, videoHeight - 3), (0,0,225), 3)
                 
         # 현재 모드 창에서 표시
-        modeState = "Preview Mode" if not recodingMode else "Recoding Mode"
-        cv.putText(displayImg, modeState, (10,50), cv.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)      
+        if recodingMode:
+            modeState = "Recoding Mode"
+            cv.putText(displayImg, modeState, (10,50), cv.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)      
+        else:
+            modeState = "Preview Mode"
+            cv.putText(displayImg, modeState, (10,50), cv.FONT_HERSHEY_SIMPLEX, 1, (225,105,65), 2)      
                 
         # 녹화
         if nowRecoding and recodedVideo is not None:
