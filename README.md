@@ -16,18 +16,12 @@
 
 ## 🎮 사용법 (단축키)
 
-| 키  | 기능 |
-|-----|------------------------------------|
+| 키  | 기능 | 이미지 |
+|-----|------------------------------------|--------------------------|
 | `ESC` | 프로그램 종료 |
-| `SPACE` | 실시간 스트리밍/녹화 모드  (Preview ↔ Recording) |
-![PreviewMode](./PreviewMode.png)
-![RecodingMode](./RecodingMode.png)
-| `R` | 녹화 시작 / 중지 (녹화 중 빨간/검은 테두리 표시) |
-![Recoding](./Recoding.png)
-| `B` | 흑백 모드 ON / OFF |
-![BlackPreviewMode](./BlackPreviewMode.png)
-![BlackRecodingMode](./BlackRecodingMode.png)
-![BlackRecoding](./BlackRecoding.png)
+| `SPACE` | 실시간 스트리밍/녹화 모드  (Preview ↔ Recording) | ![PreviewMode](./PreviewMode.png) ![RecodingMode](./RecodingMode.png) |
+| `R` | 녹화 시작 / 중지 (녹화 중 빨간/검은 테두리 표시) | ![Recoding](./Recoding.png) |
+| `B` | 흑백 모드 ON / OFF | ![BlackPreviewMode](./BlackPreviewMode.png) ![BlackRecodingMode](./BlackRecodingMode.png) ![BlackRecoding](./BlackRecoding.png) |
 
 ---
 
